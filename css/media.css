@@ -30,5 +30,14 @@
   .pricing-list {
     margin: 0 15px 50px;
   }
+  .customers {
+    padding: 80px 0 69px;
+  }
+  .reviews {
+    justify-content: space-around;
+  }
+  .reviews-item {
+    margin-bottom: 50px;
+  }
 }
 /*# sourceMappingURL=media.css.map */

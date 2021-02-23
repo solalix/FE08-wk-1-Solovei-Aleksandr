@@ -1,28 +1,8 @@
 .awesome {
     padding: 100px 0 109px 0;
-    &__title {
-        font-family: 'Raleway', sans-serif;
-        text-align: center;
-        font-weight: 400;
-        font-size: 36px;
-        line-height: 42px;
-        color: #212121;
-        margin-bottom: 30px;
-        &::after {
-            content: "";
-            display: block;
-            margin: 0 auto;
-            width: 62px;
-            height: 4px;
-            background-color: #d98943;
-            margin-top: 25px;
-        }
-    }
 }
 
 .awesome-text {
-    color: #86878b;
-    text-align: center;
     margin-bottom: 67px;
 }
 
