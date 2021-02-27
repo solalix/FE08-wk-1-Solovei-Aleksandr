@@ -4,6 +4,9 @@ body {
     font-size: 14px;
     line-height: 19px;
     color: #86878b;
+    &.active {
+        overflow: hidden;
+    }
 }
 
 .conteiner {
@@ -91,10 +94,10 @@ body {
     line-height: 20px;
     color: #ffffff;
     padding: 11px 26px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     position: relative;
     overflow: hidden;
-    transition: .3s;
+    transition: 0.3s;
     &::after {
         content: "";
         width: 100%;
@@ -103,9 +106,9 @@ body {
         position: absolute;
         top: -100%;
         left: 0;
-        transition: .3s cubic-bezier(0.175, 0.885, 0.32, 1.8);
+        transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.8);
     }
-    &__text{
+    &__text {
         position: relative;
         z-index: 2;
     }
@@ -121,9 +124,30 @@ body {
     }
 }
 
+.hover-f {
+    display: inline-block;
+    transition: 0.3s;
+    &:hover {
+        color: #ec7979;
+        transform: scale(1.1);
+    }
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@import url("../css/header.css");
+@import url("../css/first-screen.css");
+@import url("../css/social.css");
 @import url("../css/awesome.css");
 @import url("../css/pricing.css");
 @import url("../css/customers.css");
 @import url("../css/design.css");
+@import url("../css/footer.css");
 
 @import url("../css/media.css");

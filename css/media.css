@@ -20,24 +20,107 @@
     color: #333333;
     margin-bottom: 16px;
   }
-  .pricing {
+  .social__box {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .social .social-wrapper {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .social .pricing {
     padding: 80px 0 30px 0;
   }
-  .pricing-box {
+  .social .pricing-box {
     display: flex;
     justify-content: space-around;
   }
-  .pricing-list {
+  .social .pricing-list {
     margin: 0 15px 50px;
   }
-  .customers {
+  .social .customers {
     padding: 80px 0 69px;
+  }
+  .social .reviews {
+    justify-content: space-around;
+  }
+  .social .reviews-item {
+    margin-bottom: 50px;
+  }
+  .pricing-box {
+    justify-content: space-around;
+  }
+  .pricing-list {
+    margin: 20px 0;
   }
   .reviews {
     justify-content: space-around;
   }
   .reviews-item {
+    margin: 30px 15px;
+  }
+  .first-screen__box {
     margin-bottom: 50px;
+  }
+  .first-screen-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 640px) {
+  .first-screen {
+    padding-top: 176px;
+  }
+  .header {
+    position: relative;
+    z-index: 1000;
+  }
+  .menu-list {
+    position: absolute;
+    top: 100%;
+    left: -100%;
+    width: 80%;
+    height: calc(100vh - 100%);
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 100;
+    padding-left: 10%;
+    transition: 0.3s;
+  }
+  .menu-list.active {
+    left: 0;
+  }
+  .menu-list__item {
+    margin: 20px 0;
+  }
+  .menu-btn {
+    display: block;
+  }
+}
+
+@media (max-width: 425px) {
+  .social-list {
+    font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .social-list__item {
+    margin-left: 5px;
+  }
+  .social-list__item:first-child {
+    margin-left: 0;
+  }
+  .social-list__link {
+    transition: 0.3s;
+  }
+  .social-list__link:hover {
+    color: #ec7979;
+  }
+  .pricing-list__item {
+    width: 250px;
   }
 }
 /*# sourceMappingURL=media.css.map */
