@@ -51,20 +51,8 @@
         color: #ec7979;
     }
     &__input {
-        display: block;
-        border: none;
-        border-bottom: 1px solid #bdbdbd;
-        padding: 16px 0;
+        margin: 0 auto;
         width: 252px;
-        margin: 2px auto;
-        &::placeholder {
-            font-size: 14px;
-            line-height: 19px;
-            color: #bdbdbd;
-        }
-        &:focus {
-            outline-color: #ec7979;
-        }
     }
     &__password {
         margin-bottom: 51px;
@@ -81,7 +69,7 @@
         border: 2px solid #ec7979;
         border-radius: 0 0 8px 8px;
         cursor: pointer;
-        transition: .3s;
+        transition: 0.3s;
         &:hover {
             background-color: #fff;
             color: #ec7979;

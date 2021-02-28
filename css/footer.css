@@ -10,7 +10,7 @@
   justify-content: space-between;
   font-size: 23px;
   color: #c0c0c0;
-  width: 317px;
+  max-width: 317px;
   margin: 0 auto 18px;
 }
 
